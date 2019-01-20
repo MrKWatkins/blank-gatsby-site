@@ -1,0 +1,14 @@
+@import "node_modules/@blueprintjs/core/lib/scss/variables";
+
+.content
+{
+    padding-top: $pt-grid-size + $pt-navbar-height;
+    padding-bottom: $pt-grid-size;
+    padding-left: $pt-grid-size;
+    padding-right: $pt-grid-size;
+
+    h1, h2
+    {
+        margin-top: 0;
+    }
+}
